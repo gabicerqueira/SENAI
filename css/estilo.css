@@ -11,6 +11,10 @@ body {
     font-family: 'Bebas Neue';
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container-grid {
     width: 85%;
     max-width: 1200px;
@@ -18,7 +22,7 @@ body {
 }
 
 header {
-    background-color: #f90000;
+    background-color: #19A3FA;
     height: 80px;
     position: fixed;
     width: 100vw;
@@ -59,13 +63,14 @@ header {
 }
 
 .botao{
-    background-color: #ff4949;
+    background-color: #0083d4;
     height: 45px;
     width: 160px;
     text-align: center;
     line-height: 47px;
     font-size: 1.25em !important;
     border: solid 1px #080324;
+    margin-bottom: 1px;
 }
 
 .botao:hover{
@@ -108,15 +113,18 @@ h1 {
 }
 
 .linha-amarela {
-    border: solid 1px #FFAF00;
+    border: solid 1px #0083d4;
+    margin-top: -60px;
 }
 
 .titulo-senai {
     font-family: 'Courier New', Courier, monospace;
-    color: #F9003D;
+    color: #ffffff;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: 600;
+    padding-left: 30px;
+    margin-top: -50px;
 }
 
 .mouse {
@@ -242,7 +250,7 @@ h1 {
 
 footer {
     height: 80px;
-    background-color: #F9003D;
+    background-color: #f90000;
     color: white;
     display: flex;
     justify-content: center;

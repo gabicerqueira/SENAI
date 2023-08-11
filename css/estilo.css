@@ -132,7 +132,7 @@ h1 {
 }
 
 .sobre-projetos {
-    background-color: #003454;
+    background-color: #f1f1f1;
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -159,7 +159,7 @@ h1 {
 }
 
 .texto-participantes {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-size: 25px;
@@ -173,7 +173,7 @@ h1 {
 }
 
 .texto-sobre p {
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Segoe UI', sans-serif;
     text-align: justify;
 }

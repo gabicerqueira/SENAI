@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/layout_tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/layout_smartphone.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65d3d9eac0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,7 +20,7 @@
                 <a href="#endereco">Endereço</a>
                 <a class="botao" href="mailto:exemplo@email.com">Contate-nos</a>
             </nav>
-            
+            <a class="menu-barras" onclick="mostrarMenu()"><i id="icone" class="fa-solid fa-bars" style="color: #ffffff;"></i></a>
         </div>
     </header>
     <main>
@@ -33,7 +30,7 @@
                     <h1>cursos técnicos senai</h1>
                     <div class="linha-amarela"></div>
                     <span class="titulo-senai">Senai Informática</span>
-                    <a href="#endereco"><img class="mouse" id="mouse" src="imagens/mouse-down.png" alt="Imagem de um mouse"></a>
+                    <a href="#footer"><img class="mouse" id="mouse" src="imagens/mouse-down.png" alt="Imagem de um mouse"></a>
                 </div>
             </div>
         </div>
@@ -76,9 +73,26 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <span>Copyright &copy; 2021 - Escola Senai de Informática</span>
     </footer>
+
+    <script>
+        function mostrarMenu() {
+            var menu = document.getElementById("menu-header");
+            var icone = document.getElementById("icone");
+    
+            if (getComputedStyle(menu).display == 'none') {
+                menu.style.display = "flex";
+                icone.classList.remove("fa-bars");
+                icone.classList.add("fa-times");
+            } else {
+                menu.style.display = "none";
+                icone.classList.remove("fa-times");
+                icone.classList.add("fa-bars");
+            }
+        }
+    </script>
   
 </body>
 </html>

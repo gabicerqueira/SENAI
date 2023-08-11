@@ -2,7 +2,7 @@
     display: none;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.90);
+    background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 80px;
     left: 0px;
@@ -41,8 +41,14 @@
     margin-top: 30px;
 }
 
+.titulo-senai{
+    text-align: center;
+    margin-right: 30px;
+}
+
 @media screen and (max-width : 360px){
     .titulo-senai{
-        font-size: 42px;
+        font-size: 40px;
     }
+
 }

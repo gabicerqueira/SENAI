@@ -1,5 +1,13 @@
 .menu-header {
     width: 60%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
 }
 
 .conteudo-sobre {
@@ -45,4 +53,44 @@
 .mapa {
     position: unset;
     width: 400px;
+}
+
+#icone{
+    font-size: 30px;
+}
+
+.menu-header a{
+    background-color: #0083d4;
+    height: 45px;
+    width: 160px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.25em !important;
+    border: solid 1px #080324;
+    margin-bottom: 1px;
+}
+
+.menu-header a:hover{
+    font-size: 1.42em !important;
+    height: 50px;
+    line-height: 53px;
+    width: 170px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 6px #0000007a;
+}
+
+.texto-banner{
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+.linha-amarela{
+    margin-top: 1px;
+    margin-bottom: 70px;
+}
+
+.titulo-senai{
+    font-size: 40px;
+    text-align: justify;
+    margin-bottom: 20px;
 }

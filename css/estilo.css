@@ -132,7 +132,7 @@ h1 {
 }
 
 .sobre-projetos {
-    background-color: #2f004b;
+    background-color: #003454;
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -183,7 +183,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    padding: 40px 0;   
+    padding: 70px 0;   
 }
 
 .conteudo-info {
@@ -206,15 +206,15 @@ h1 {
     color: #ffffff;
     font-size: 22px;
     font-weight: 600;
-    border: solid 2px #0083d4;
-    background-color: #003454;
+    border: solid 2px #8b00db;
+    background-color: #480071;
     width: 250px;
     padding: 30px 0;
     text-align: center;
 }
 
 .endereco {
-    padding: 40px 0;
+    padding: 100px 0;
     background-image: url(../imagens/imagem-fundo-ranking.jpg);
 }
 
@@ -233,7 +233,7 @@ h1 {
 .texto-endereco {
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #2f004b;
+    background-color: #480071;
     border: solid 2px #8b00db;
     padding: 55px 55px;
 }
